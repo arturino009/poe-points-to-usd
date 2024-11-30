@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Non-misleading prices for PoE
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/arturino009/poe-points-to-usd
 // @version      0.1
 // @description  Converts all point values to actual prices in the PoE website
 // @author       arturino009
