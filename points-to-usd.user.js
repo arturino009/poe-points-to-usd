@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Non-misleading prices for PoE
 // @namespace    https://github.com/arturino009/poe-points-to-usd
-// @version      0.1
+// @version      0.2
 // @description  Converts all point values to actual prices in the PoE website
 // @author       arturino009
 // @match        https://www.pathofexile.com/*
