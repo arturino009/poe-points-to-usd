@@ -7,8 +7,8 @@
 // @match        https://www.pathofexile.com/*
 // @match        https://pathofexile2.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
-// @updateURL    https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js  // Point to your GitHub raw URL
-// @downloadURL  https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js  // Point to your GitHub raw URL
+// @updateURL    https://raw.githubusercontent.com/arturino009/poe-points-to-usd/main/points-to-usd.js
+// @downloadURL  https://raw.githubusercontent.com/arturino009/poe-points-to-usd/main/points-to-usd.js
 // ==/UserScript==
 
 (function() {
