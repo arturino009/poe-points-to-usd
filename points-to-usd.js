@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Non-misleading prices for PoE
 // @namespace    http://tampermonkey.net/
-// @version      2024-11-30
+// @version      0.1
 // @description  Converts all point values to actual prices in the PoE website
 // @author       arturino009
 // @match        https://www.pathofexile.com/*
 // @match        https://pathofexile2.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
-// @grant        none
+// @updateURL    https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js  // Point to your GitHub raw URL
+// @downloadURL  https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js  // Point to your GitHub raw URL
 // ==/UserScript==
 
 (function() {
