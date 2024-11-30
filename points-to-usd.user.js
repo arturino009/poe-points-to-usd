@@ -6,6 +6,7 @@
 // @author       arturino009
 // @match        https://www.pathofexile.com/*
 // @match        https://pathofexile2.com/*
+// @exclude      https://www.pathofexile.com/trade*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
 // @updateURL    https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js
 // @downloadURL  https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js
