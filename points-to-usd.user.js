@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Non-misleading prices for PoE
 // @namespace    https://github.com/arturino009/poe-points-to-usd
-// @version      0.2
+// @version      0.3
 // @description  Converts all point values to actual prices in the PoE website
 // @author       arturino009
 // @match        https://www.pathofexile.com/*
 // @match        https://pathofexile2.com/*
-// @exclude      https://www.pathofexile.com/trade*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=pathofexile.com
 // @updateURL    https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js
 // @downloadURL  https://raw.githubusercontent.com/arturino009/poe-points-to-usd/refs/heads/main/points-to-usd.js
@@ -16,7 +15,7 @@
     'use strict';
 
     // List of classes to process
-    const classesToProcess = ['amount', 'price', 'totalCost', 'savings', 'savingsInfo', 'item-cost', 'coin-icon', 'cost', 'original-cost', 'account-bar__points-balance', 'points-banner'];
+    const classesToProcess = ['coins', 'mtx-details .price', 'totalCost', 'savings', 'savingsInfo', 'item-cost', 'coin-icon', 'cost', 'original-cost', 'account-bar__points-balance', 'points-banner', 'buy-mystery-box .price'];
 
     // Function to convert numbers to dollar format
     function convertToDollar(text) {
